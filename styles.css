@@ -6,9 +6,6 @@ header p {
     padding-top: 30px;
     padding-bottom: 20px;
 }
-header-background {
-    background-image: ;
-}
 
 /*body */
 body {
@@ -39,8 +36,7 @@ footer img {
     padding-left: 80px;
     padding-top: 40px;
 }
-<style>
-body {
+style body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
