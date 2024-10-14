@@ -1,90 +1,129 @@
-/*header */
-header p {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* header */
+header {
+  background-color: #eeede5;
+  color: rgb(5, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
 }
-
-/*body */
+/*header paragraph*/
+header p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+/* Navigation bar */
+nav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 50px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+/* Change color on hover */
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Clear floats */
+nav {
+  background-color: #e9d21d;
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+/* Modal styles */
+#aboutModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Modal content */
+#aboutModal.modal {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  height: 20%;
+}
+/* Close button */
+#aboutModal.close {
+  float: right;
+  cursor: pointer;
+}
+/* Global styles */
 body {
-    background-color: lightblue;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f8ff; /* Light background */
+  margin: 0;
+  padding: 0;
 }
 /*cleaning videos */
 video {
-    width: 30%;
-    height: 50%;
-    padding-left: 70px;
-    padding-top: 20px;
+  width: 40%; /* Make video container 40% of the viewport width */
+  height: auto; /* Maintain aspect ratio */
+  padding-left: 70px;
+  padding-top: 20px;
 }
 /*header1 */
 h1 {
-    color: red;
-    font-size: 40px;
+  color: #ff6347; /* Tomato color for a modern look */
+  font-size: 42px;
+  text-align: center;
+  padding-top: 20px;
 }
-/*social media icons */
-footer img {
-    width: 35px;
-    height: 30px;
+style body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+}
+.services,
+.blog-section {
+  margin-bottom: 40px;
+}
+.service,
+.blog-post {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+.service h3,
+.blog-post h3 {
+  margin-top: 0;
 }
 /*cleaning images */
 .cleaning-images img {
-    width:  30%;
-    height: 50%;
-    text-align: center;
-    padding-left: 80px;
-    padding-top: 40px;
-}
-style body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-header {
-    background-color: #eeede5;
-    color: rgb(5, 0, 0);
-    text-align: center;
-    padding: 20px 0;
-
-}
-nav {
-    background-color: #e9d21d;
-    overflow: hidden;
-}
-nav a {
-    float: left;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px 150px;
-    border-radius: 50px;
-    margin-right: 80px;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-section {
-    padding: 20px;
-}
-.services, .blog-section {
-    margin-bottom: 40px;
-}
-.service, .blog-post {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    padding: 15px;
-    border-radius: 5px;
-}
-.service h3, .blog-post h3 {
-    margin-top: 0;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 footer {
-    background-color: #080000;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    padding-right: 100px;
+  background-color: #080000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  padding-right: 100px;
+}
+/* Social media icons */
+footer img {
+  width: 40px; /* Slightly larger icons */
+  height: 35px;
+  margin: 0 10px; /* Add margin for spacing between icons */
 }
