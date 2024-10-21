@@ -109,11 +109,17 @@ section {
 }
 /*cleaning images */
 .cleaning-images img {
+  padding: 10px;
   width: 50%;
   height: auto;
   margin: 0 auto;
   display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Rounded corners */
+  object-fit: cover; /* Ensures the image covers the container */
 }
+/*footer */
 footer {
   background-color: #080000;
   color: rgb(255, 255, 255);
